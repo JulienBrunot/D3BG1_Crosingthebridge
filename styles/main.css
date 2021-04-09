@@ -1,0 +1,44 @@
+body {
+  background: url("bg.jpg") no-repeat top center ;
+  color: white;
+  font-size: 1.5em;
+
+}
+ul {
+list-style-type: none;
+
+}
+
+li {
+border: 1px solid #efefef;
+width: 5vw;
+height: 5vw;
+}
+article {
+  display: flex ;
+  justify-content: space-between;
+}
+aside {
+  background: #c2c2c2;
+  flex-basis: 320px;
+}
+.perso {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background: url("indi.png") no-repeat top center ;
+  background-size: cover;
+  flex-grow: 1;
+
+}
+.rivegauche{
+  display: flex;
+
+}
+.rivedroight {
+  display: flex;
+  align-items: flex-end;
+}
+img {
+width: 100%;
+}
