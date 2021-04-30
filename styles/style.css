@@ -45,6 +45,13 @@ font-style: normal;
     "mikeside jackside indiside bearside"
 }
 
+.compteur{
+  text-align: center;
+  font-family: bicyclette, sans-serif;
+  color: white;
+
+}
+
 #mike{
   position: absolute;
 top: 430px;
