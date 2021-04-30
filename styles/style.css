@@ -1,0 +1,99 @@
+@import url("https://use.typekit.net/khj1rqq.css");
+
+body{
+    background: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.choix {
+  float: left!important;
+}
+
+.bouton{
+  background-color: white;
+  padding: 10px;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.accueil{
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  font-family: bicyclette, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: 20;
+  right: 30px;
+}
+
+.imagesbas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "mike jack indi bear"
+}
+
+.imageshaut{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "mikeside jackside indiside bearside"
+}
+
+#mike{
+  position: absolute;
+top: 430px;
+}
+
+#jack{
+  position: absolute;
+  margin: auto;
+  top: 540px;
+  right: 10vh;
+  grid-area: jack;
+}
+
+#indi{
+  position: absolute;
+  margin: auto;
+  top: 430px;
+  right: 70vh;
+}
+
+#bear{
+  position: absolute;
+  margin: auto;
+  top: 430px;
+  right: 100vh;
+}
+
+#mikeside{
+  position: absolute;
+  right: 150vh;
+}
+
+#jackside{
+  position: absolute;
+  margin: auto;
+  right: 140vh;
+  grid-area: jackside;
+}
+
+#indiside{
+  position: absolute;
+  margin: auto;
+  right: 70vh;
+  grid-area: indiside;
+}
+
+#bearside{
+  position: absolute;
+  margin: auto;
+  right: 100vh;
+  grid-area: bearside;
+}
