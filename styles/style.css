@@ -5,15 +5,43 @@ body{
     background-repeat: no-repeat;
 }
 
+h2{
+  display: block;
+  position: relative;
+  top:100px;
+  left:36vw;
+  max-width: 500px;
+  font-size: 15px;
+}
+
 .choix {
-  float: left!important;
+  display: flex;
+  align-items: flex-start;
+  flex-basis: auto;
+  position: absolute;
+  flex-basis: 100px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.choixside {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  margin-left: 65vw;
+  flex-basis: 100px;
+  flex-direction: column;
+  width: 100%;
+  color: lightgrey;
 }
 
 .bouton{
+
   background-color: white;
-  padding: 10px;
+  padding-right: : 10px;
   font-family: helvetica;
   font-weight: bold;
+
 }
 
 .accueil{
@@ -28,79 +56,78 @@ font-style: normal;
 }
 
 .imagesbas{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "mike jack indi bear"
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  max-width:100%;
+}
+.imagesbas > div{
+  align-items: flex-start;
+  flex-basis: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+.imagesbas img{
+  width: 100%;
+}
+
+
 .imageshaut{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "mikeside jackside indiside bearside"
+  display: flex;
+  position: absolute;
+  top:0;
+  right:0;
+  max-width:50%;
+  margin-top: 90px;
+  margin-right: -450px;
+}
+.imageshaut > div{
+  flex-basis: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.imageshaut img{
+  width: 100%;
+}
+
+#mike{
+
+}
+
+#jack{
+
+}
+
+#indi{
+
+}
+
+#bear{
+
 }
 
 .compteur{
   text-align: center;
   font-family: bicyclette, sans-serif;
   color: white;
-
-}
-
-#mike{
-  position: absolute;
-top: 430px;
-}
-
-#jack{
-  position: absolute;
-  margin: auto;
-  top: 540px;
-  right: 10vh;
-  grid-area: jack;
-}
-
-#indi{
-  position: absolute;
-  margin: auto;
-  top: 430px;
-  right: 70vh;
-}
-
-#bear{
-  position: absolute;
-  margin: auto;
-  top: 430px;
-  right: 100vh;
 }
 
 #mikeside{
-  position: absolute;
-  right: 150vh;
+
 }
 
 #jackside{
-  position: absolute;
-  margin: auto;
-  right: 140vh;
-  grid-area: jackside;
+
 }
 
 #indiside{
-  position: absolute;
-  margin: auto;
-  right: 70vh;
-  grid-area: indiside;
+
 }
 
 #bearside{
-  position: absolute;
-  margin: auto;
-  right: 100vh;
-  grid-area: bearside;
+
 }
