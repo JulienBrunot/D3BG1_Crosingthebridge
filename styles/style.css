@@ -1,0 +1,133 @@
+@import url("https://use.typekit.net/khj1rqq.css");
+
+body{
+    background: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+h2{
+  display: block;
+  position: relative;
+  top:100px;
+  left:36vw;
+  max-width: 500px;
+  font-size: 15px;
+}
+
+.choix {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: auto;
+  position: absolute;
+  flex-basis: 100px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.choixside {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  margin-left: 65vw;
+  flex-basis: 100px;
+  flex-direction: column;
+  width: 100%;
+  color: lightgrey;
+}
+
+.bouton{
+
+  background-color: white;
+  padding-right: : 10px;
+  font-family: helvetica;
+  font-weight: bold;
+
+}
+
+.accueil{
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  font-family: bicyclette, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: 20;
+  right: 30px;
+}
+
+.imagesbas{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  max-width:100%;
+}
+.imagesbas > div{
+  align-items: flex-start;
+  flex-basis: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imagesbas img{
+  width: 100%;
+}
+
+
+.imageshaut{
+  display: flex;
+  position: absolute;
+  top:0;
+  right:0;
+  max-width:50%;
+  margin-top: 90px;
+  margin-right: -450px;
+}
+.imageshaut > div{
+  flex-basis: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.imageshaut img{
+  width: 100%;
+}
+
+#mike{
+
+}
+
+#jack{
+
+}
+
+#indi{
+
+}
+
+#bear{
+
+}
+
+.compteur{
+  text-align: center;
+  font-family: bicyclette, sans-serif;
+  color: white;
+}
+
+#mikeside{
+
+}
+
+#jackside{
+
+}
+
+#indiside{
+
+}
+
+#bearside{
+
+}
